@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="breakout"
+run/main_scene="res://start_screen.tscn"
+config/features=PackedStringArray("4.0", "C#")
+config/icon="res://icon.svg"
+
+[autoload]
+
+SceneManager="*res://SceneManager.cs"
+
+[display]
+
+window/size/viewport_width=640
+window/size/viewport_height=360
+window/stretch/mode="viewport"
+
+[dotnet]
+
+project/assembly_name="breakout"
+
+[physics]
+
+2d/default_linear_damp=0.0
+2d/default_angular_damp=0.0
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

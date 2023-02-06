@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1knnki8j74s7"]
+
+[ext_resource type="PackedScene" uid="uid://cgt2f5f5juixu" path="res://brick.tscn" id="1_23tyl"]
+
+[node name="Node2d" type="Node2D"]
+
+[node name="brick" parent="." instance=ExtResource("1_23tyl")]
+position = Vector2(96, 48)
+
+[node name="brick2" parent="." instance=ExtResource("1_23tyl")]
+position = Vector2(192, 96)
